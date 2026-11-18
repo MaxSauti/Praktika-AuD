@@ -6,4 +6,6 @@ set(CMAKE_C_STANDARD 11)
 add_executable(Praktika
         "Algorithms.c"
 "Quicksort.c"
-"Quicksort.h")
+"Quicksort.h"
+"Heapsort.c"
+"Heapsort.h")

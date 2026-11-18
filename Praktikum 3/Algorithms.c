@@ -5,6 +5,7 @@
 
 #include "Maximum.h"
 #include "Quicksort.h"
+#include "Heapsort.h"
 
 //
 // Created by maxkn on 12.11.2026.
@@ -16,7 +17,8 @@ int main() {
     for (int i = 0; i < MAX; i++) {
         a[i] = rand() % MAX;
     }
-    quicksort(a, 0, MAX - 1);
+    //quicksort(a, 0, MAX - 1);
+    heapsort(a, MAX);
     for (int i = 0; i < MAX; i++) {
         printf("%d ", a[i]);
     }
