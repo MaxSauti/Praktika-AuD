@@ -1,0 +1,8 @@
+//
+// Created by maxkn on 18.11.2026.
+//
+
+#ifndef PRAKTIKA_SELECTIONSORT_H
+#define PRAKTIKA_SELECTIONSORT_H
+
+#endif //PRAKTIKA_SELECTIONSORT_H

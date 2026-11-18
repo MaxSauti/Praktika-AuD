@@ -4,4 +4,6 @@ project(Praktika C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Praktika
-        "Algorithms.c")
+        "Algorithms.c"
+"Quicksort.c"
+"Quicksort.h")
