@@ -8,4 +8,12 @@ add_executable(Praktika
 "Quicksort.c"
 "Quicksort.h"
 "Heapsort.c"
-"Heapsort.h")
+"Heapsort.h"
+"Insertionsort.c"
+"Insertionsort.h"
+"Mergesort.c"
+"Mergesort.h"
+"Shellsort.c"
+"Shellsort.h"
+"Selectionsort.c"
+"Selectionsort.h")

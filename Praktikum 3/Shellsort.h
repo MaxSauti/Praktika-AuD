@@ -4,5 +4,5 @@
 
 #ifndef PRAKTIKA_SHELLSORT_H
 #define PRAKTIKA_SHELLSORT_H
-
+void shellsort (int a[], int N);
 #endif //PRAKTIKA_SHELLSORT_H
