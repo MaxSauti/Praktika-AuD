@@ -14,7 +14,7 @@ void upheap (int k)
 {
     int v;
 
-    v = a[k]; a[0] = INT_MAX;
+    v = a[k]; a[1] = INT_MAX;
     while (a[k/2] <= v)
     { a[k] = a[k/2]; k = k/2; }
     a[k] = v;
@@ -22,7 +22,7 @@ void upheap (int k)
 
 void insert (int v)
 {
-    a[N++] = v;
+    a[++N] = v;
     upheap (N);
 }
 
@@ -44,17 +44,18 @@ void downheap (int k)
 
 int removeE ()
 {
-    int v = a[0];
+    int v = a[1];
 
-    a[0] = a[N--];
-    downheap (0);
+    a[1] = a[N--];
+    downheap (1);
     return v;
 }
 
 void heapsort (int a[], int laenge)
 {
+    N = 0;
     int k;
 
     for (k = 0; k < laenge; k++) insert (a[k]);
-    for (k = laenge; k >= 0; k--) a[k] = removeE();
+    for (k = laenge; k > 0; k--) a[k] = removeE();
 }
